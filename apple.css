@@ -1,0 +1,357 @@
+/******************************************
+ * 공통 영역                                *
+ ******************************************/
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+button {
+  border: 0;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.link-more {
+  margin-right: 20px;
+}
+img {
+  vertical-align: bottom;
+}
+
+/******************************************
+ * 헤더 영역                                *
+ ******************************************/
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background: #333333;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 45px;
+}
+.menu button {
+  font-size: 14px;
+  color: #ffff;
+}
+
+/******************************************
+ * 메인 영역                                *
+ ******************************************/
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* product__container 영역*/
+.product__container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  height: 600px;
+}
+.product__container h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.product__container small {
+  font-size: 26px;
+  margin-top: 8px;
+}
+/* 배너 영역 1 */
+.iphone-x {
+  background-color: #f8f8f8;
+}
+
+.iphone_x_small {
+  display: none;
+}
+
+.iphone_x_2x {
+  margin-top: 40px;
+}
+
+.iphone-x h1 {
+  margin-top: -80px;
+}
+
+/* 링크 영역 */
+.link {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  width: 250px;
+}
+a {
+  color: #0070c9;
+  font-size: 20px;
+}
+
+/* 배너 영역 2 */
+.iphone-8 {
+  background-image: url('iphone_8_mediumtall_2x.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-color: #f9f0eb;
+}
+.iphone-8 h1 {
+  margin-top: -400px;
+}
+
+/* 배너 영역 3 */
+.ipad {
+  background-image: url('ipad_medium_2x.jpg');
+  background-position: center 190px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.ipad h1 {
+  margin-top: -350px;
+}
+
+/* blog__container 영역 */
+.blog__container {
+  display: flex;
+  flex-direction: raw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 12px;
+}
+.blog__container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog__container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.blog__container small {
+  margin-top: 12px;
+  font-size: 20px;
+}
+.blog__container section {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 12px;
+  width: calc(50% - 6px);
+  height: 580px;
+}
+
+/* 배너 영역 4 */
+.whatch {
+  background-image: url('watch_series_3_medium_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: center 100px;
+  background-color: #eeeeee;
+}
+
+/* 배너 영역 5 */
+.iphone {
+  background-image: url('how_to_shoot_large_2x.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: #f9f9f9;
+}
+.iphone h2 {
+  color: #fff;
+}
+.iphone small {
+  color: #fff;
+}
+
+/* 배너 영역 6 */
+.Music {
+  background-image: url('music_three_months_medium_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -50px;
+}
+.Music h2 {
+  color: #fff;
+}
+.Music small {
+  color: #fff;
+}
+
+/* 배너 영역 7 */
+.mac {
+  background-image: url('behind_the_mac_medium_2x.jpg');
+  background-repeat: no-repeat;
+  /* 이미지 깨짐 */
+  background-size: cover;
+  background-position: center -50px;
+}
+.mac h2 {
+  color: #fff;
+  font-weight: normal;
+}
+
+/* 배너 영역 8 */
+.AirPods {
+  background-image: url('airpods_medium_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center 200px;
+  background-color: #f9f9f9;
+}
+
+/* 배너 영역 9 */
+.HomePod {
+  background-image: url('homepod_medium_2x.jpg');
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: center 160px;
+  background-color: #f9f9f9;
+}
+
+/******************************************
+ * 푸터 영역                                *
+ ******************************************/
+footer {
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+footer h5 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.small-copy {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+footer h6 {
+  width: 70%;
+}
+.foot-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+footer li {
+  margin-top: 10px;
+  color: gray;
+}
+
+/******************************************
+ * 모바일 영역                               *
+ ******************************************/
+@media (max-width: 735px) {
+  .menu {
+    display: none;
+  }
+
+  /* 헤더 */
+  header {
+    height: 50px;
+  }
+  .logo img {
+    height: 50px;
+  }
+
+  /* 프로덕트 컨데이너 공통 */
+  .product__container h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+
+  .product__container small {
+    font-size: 20px;
+  }
+
+  .link__container {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  /* iphone_x */
+  .iphone_x_2x {
+    display: none;
+  }
+  copy_wrapper {
+  }
+
+  .iphone-8 h1 {
+    margin-top: -200px;
+  }
+
+  .link_c {
+    margin-top: 20px;
+  }
+
+  .ipad h1 {
+    width: 200px;
+  }
+
+  .blog__container section {
+    width: 100%;
+  }
+
+  footer .small-copy {
+    display: none;
+  }
+
+  .foot-menu ul {
+    display: none;
+  }
+
+  .foot-menu h5 {
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .foot-menu {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 15px;
+  }
+
+  footer {
+    padding-bottom: 0px;
+  }
+
+  .product__container section {
+    height: 500px;
+  }
+  .blog__container h2 {
+    font-size: 32px;
+  }
+
+  .blog__container {
+    width: 100%;
+  }
+}
